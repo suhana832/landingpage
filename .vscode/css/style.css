@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+body{
+background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(https://media.istockphoto.com/id/1461381064/photo/friends-eating-pepperoni-pizza-on-a-party.jpg?b=1&s=170667a&w=0&k=20&c=GWAwpG1l5awT2iCdn8njcUIW-cLvSX6LS9H7OChUG0I=) no-repeat;
+background-size: cover;
+background-attachment: scroll;
+}
+main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: black;
+    width: 70px;
+    /* height: 5px; */
+    margin: 100px;
+    padding: 100px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 90px;
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo img{
+    width: 120px;
+    height: 70px;
+}
+.logo h4{
+    margin: 70px 20px 0 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    font-size: xx-large;
+    margin: 0 0 0 270px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(112, 108, 108);
+}
+main{
+    height: 85vh;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+}
